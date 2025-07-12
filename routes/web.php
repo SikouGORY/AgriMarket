@@ -10,3 +10,6 @@ Route::get('/', function () {
 
 Route::resource('/users', UserController::class)->except(['show']);
 Route::get('/createDemon', [UserController::class, 'createDemon']);
+
+
+

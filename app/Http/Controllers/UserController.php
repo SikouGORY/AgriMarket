@@ -79,18 +79,18 @@ class UserController extends Controller
         //     'zone_cultivée'=>'zone de kayes'
         // ]);
 
-        $user2 = User::create([
-            'name'=>'Salihou TOURE',
-            'email'=>'toure@gmail.com',
-            'tel'=>'73072365',
-            'adresse'=>'Niamana',
-            'password'=>bcrypt('password')
+        // $user2 = User::create([
+        //     'name'=>'Salihou TOURE',
+        //     'email'=>'toure@gmail.com',
+        //     'tel'=>'73072365',
+        //     'adresse'=>'Niamana',
+        //     'password'=>bcrypt('password')
 
-        ]);
+        // ]);
 
-        $user2->acheteur()->create([
-            'emplacement_boutique'=>'zone de kayes'
-        ]);
+        // $user2->acheteur()->create([
+        //     'emplacement_boutique'=>'zone de kayes'
+        // ]);
 
         $user3 = User::create([
             'name'=>'Mamadou Traore',
